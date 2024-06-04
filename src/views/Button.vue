@@ -238,13 +238,4 @@ const eventForBtn = () => {
             size="large"
         />
     </div>
-
-    <h2 class="heading-2">Event</h2>
-    <div class="line">
-        <Button
-            label="Event"
-            color="primary"
-            @click123="eventForBtn"
-        />
-    </div>
 </template>
