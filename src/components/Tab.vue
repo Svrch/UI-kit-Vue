@@ -30,17 +30,14 @@ const clickOnTab = (tabName) => {
         >
             {{ tab.label }}
         </span>
-    </div>  
+    </div>
     <div class="tab-content">
         <slot />
     </div>
 </template>
 
 
-<style
-    lang="scss"
-    scoped
->
+<style lang="scss" scoped>
 .tab {
     &-nav {
         display: flex;

@@ -24,7 +24,6 @@ const toggleMenu = () => {
       <RouterView />
     </div>
   </div>
-
 </template>
 
 <style lang="scss">
